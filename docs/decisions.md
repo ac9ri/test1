@@ -4,8 +4,9 @@
 
 | ID | 유형 | 제목 | 상태 | 날짜 | 위치 | 대체·관련 |
 |---|---|---|---|---|---|---|
-| ADR-001 | adr | LLM과 결정적 코드의 역할 분리 | proposed | 2026-10-11 | [work/20261011-image-analysis-agent/ADR-001](./work/20261011-image-analysis-agent/ADR-001-llm-role-split.md) | 2026-10-11 호스트 도구 루프 전제로 개정 |
-| ADR-002 | adr | 과제 DLL 연동 방식 | proposed | 2026-10-11 | [work/20261011-image-analysis-agent/ADR-002](./work/20261011-image-analysis-agent/ADR-002-dll-worker-process.md) | 2026-10-11 P0 인프로세스·P2 워커로 개정 |
-| ADR-003 | adr | LLM 연동 방식 — 사내 호스트 프로그램 + MCP 도구 서버 | proposed | 2026-10-11 | [work/20261011-image-analysis-agent/ADR-003](./work/20261011-image-analysis-agent/ADR-003-llm-host-mcp-integration.md) | 2026-10-11 API 클라이언트안에서 전면 개정, 파일명 변경 |
+| ADR-001 | adr | LLM과 결정적 코드의 역할 분리 | proposed | 2026-10-13 | [work/20261011-image-analysis-agent/ADR-001](./work/20261011-image-analysis-agent/ADR-001-llm-role-split.md) | 2026-10-13 웹 백엔드 오케스트레이션 전제로 개정 |
+| ADR-002 | adr | 과제 DLL 연동 방식 | proposed | 2026-10-13 | [work/20261011-image-analysis-agent/ADR-002](./work/20261011-image-analysis-agent/ADR-002-dll-worker-process.md) | 2026-10-13 서브프로세스 격리 옵션 추가 |
+| ADR-003 | adr | LLM 연동 방식 — 웹 백엔드의 OpenAI 호환 클라이언트와 수동 대체 경로 | proposed | 2026-10-13 | [work/20261011-image-analysis-agent/ADR-003](./work/20261011-image-analysis-agent/ADR-003-llm-integration.md) | 2026-10-13 MCP 호스트안에서 전면 개정, 파일명 변경 |
+| ADR-004 | adr | 웹 기술 스택 선택 | proposed | 2026-10-13 | [work/20261011-image-analysis-agent/ADR-004](./work/20261011-image-analysis-agent/ADR-004-web-stack.md) | ADR-003과 함께 적용 |
 
 관련 기준선 문서: [REQ-image-analysis-agent](./requirements.md), [DESIGN-image-analysis-agent](./design.md)
